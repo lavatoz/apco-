@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Plus, Trash2, FileText, Send, CheckCircle2, Clock, IndianRupee } from 'lucide-react';
-import { Invoice, InvoiceStatus, Client, InvoiceItem, Brand } from '../types';
+import type { Invoice, InvoiceStatus, Client, InvoiceItem, Brand } from '../types';
 import { generateEmailDraft } from '../services/geminiService';
 
 interface InvoiceManagerProps {

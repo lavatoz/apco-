@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 import { Users, CalendarCheck, AlertCircle, RefreshCcw, IndianRupee, Clock, Briefcase } from 'lucide-react';
-import { Invoice, Client, Booking, InvoiceStatus, BookingStatus, Brand } from '../types';
+import type { Invoice, Client, Booking, InvoiceStatus, BookingStatus, Brand } from '../types';
 import { analyzeBusinessTrends } from '../services/geminiService';
 
 interface DashboardProps {

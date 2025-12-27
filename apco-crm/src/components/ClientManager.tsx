@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Plus, Search, Phone, Mail, Calendar, Sparkles, FolderOpen } from 'lucide-react';
-import { Client, Brand } from '../types';
 import { generateEmailDraft } from '../services/geminiService';
+import type { Brand, Client } from '../types';
 
 interface ClientManagerProps {
   clients: Client[];

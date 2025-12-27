@@ -5,7 +5,7 @@ import {
   MessageSquare, Send, Sparkles, Image, Video, FileText, Share2,
   LockKeyhole, Wallet
 } from 'lucide-react';
-import { Client, TimelineItem, Deliverable, Feedback, Brand, Expense } from '../types';
+import type { Client, TimelineItem, Deliverable, Feedback, Brand, Expense } from '../types';
 import { generateStatusUpdate } from '../services/geminiService';
 import { loadFromStorage, saveToStorage } from '../services/storageService';
 

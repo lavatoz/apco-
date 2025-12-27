@@ -4,7 +4,7 @@ import {
   Plus, Trash2, FileText, Send, CheckCircle2, Clock, 
   IndianRupee, TrendingUp, TrendingDown, Wallet, Briefcase, Users, Printer, Share2, X
 } from 'lucide-react';
-import { Invoice, InvoiceStatus, Client, InvoiceItem, Brand, Expense } from '../types';
+import type { Invoice, InvoiceStatus, Client, InvoiceItem, Brand, Expense } from '../types';
 import { generateEmailDraft } from '../services/geminiService';
 
 interface FinanceManagerProps {

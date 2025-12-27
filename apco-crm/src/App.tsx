@@ -1,13 +1,13 @@
 
 import React, { useState, useEffect, useRef } from 'react';
-import { Menu, UploadCloud, DownloadCloud, Lock, ShieldCheck, FileKey, Sparkles } from 'lucide-react';
+import { Menu, DownloadCloud, Lock, ShieldCheck, FileKey, Sparkles } from 'lucide-react';
 import Sidebar from './components/Sidebar';
 import Dashboard from './components/Dashboard';
 import ClientManager from './components/ClientManager';
 import FinanceManager from './components/FinanceManager';
 import ClientPortal from './components/ClientPortal';
-import { ViewState, Client, Invoice, Booking, InvoiceStatus, BookingStatus, Brand, Expense } from './types';
 import { loadFromStorage, saveToStorage, exportToDrive, importFromDrive } from './services/storageService';
+import { BookingStatus, InvoiceStatus, type Booking, type Brand, type Client, type Expense, type Invoice, type ViewState } from './types';
 
 // Mock Initial Data (Used only if storage is empty)
 const INITIAL_CLIENTS: Client[] = [

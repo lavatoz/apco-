@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { LayoutDashboard, Users, Calendar, Wallet, Sparkles, LogOut, Menu, CloudCheck } from 'lucide-react';
-import { ViewState } from '../types';
+import type { ViewState } from '../types';
 
 interface SidebarProps {
   currentView: ViewState;
